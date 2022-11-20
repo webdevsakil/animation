@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    color: #fff;
+}
+.section:nth-child(even){
+    background: black;
+}
+.section:nth-child(odd){
+    background: tomato;
+}
+#pp-nav {
+	display: none;
+}
